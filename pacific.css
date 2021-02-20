@@ -127,7 +127,10 @@ footer {
   background-repeat: no-repeat;
   background-size: 100% 100%; 
 }
-
+video, embed {
+  float: right;
+  margin-left: 20px;
+}
 @media (min-width: 600px){
   nav ul  { 
     display: flex;
